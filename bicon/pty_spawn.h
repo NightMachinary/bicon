@@ -3,7 +3,7 @@
 #include <unistd.h>
 #include <stdio.h>
 
-#define BUFLEN BUFSIZ
+#define BUFLEN BUFSIZ*2
 
 typedef ssize_t (
   *reader) (
